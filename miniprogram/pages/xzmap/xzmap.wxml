@@ -1,0 +1,8 @@
+<!--pages/xzmap/xzmap.wxml-->
+<!-- <text>pages/xzmap/xzmap.wxml</text> -->
+<!-- 学子商城地图 -->
+<map id='map' longitude="114.881884" latitude='30.455073' scale='6' 
+show-location style='width:100%;height:600rpx;' controls='{{controls}}'  polyline='{{polyline}}'
+ markers='{{markers}}'
+></map>
+

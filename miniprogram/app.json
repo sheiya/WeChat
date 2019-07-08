@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/mymovie/mymovie",
+    "pages/xzmap/xzmap",
+    
+    "pages/profile/profile",
+    "pages/comment/comment",
+    "pages/exam01/exam01"
+    
+  
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#e54847",
+    "navigationBarTitleText": "那次无意的回眸",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "电影列表",
+      "iconPath": "./images/film.png",
+      "selectedIconPath": "./images/film-actived.png"
+    },
+    {
+      "pagePath": "pages/mymovie/mymovie",
+      "text": "我喜欢",
+      "iconPath": "./images/unlike.png",
+      "selectedIconPath": "./images/like.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "个人中心",
+      "iconPath": "./images/profile.png",
+      "selectedIconPath": "./images/profile-actived.png"
+    },
+    {
+      "pagePath": "pages/xzmap/xzmap",
+      "text": "位置",
+      "iconPath": "./images/l11.png",
+      "selectedIconPath": "./images/l22.png"
+    }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

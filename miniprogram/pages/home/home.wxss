@@ -1,0 +1,44 @@
+/* pages/home/home.wxss */
+/* 一部电影区域 */
+.movie{
+  display: flex;/*当前区域弹性布局*/
+  padding: 10px;
+  border-bottom: 1px solid #ccc;/*间隔 的下划线*/
+}
+
+.movie-img{
+  /* 电影里的图片 */
+  width:200rpx;
+  height: 300rpx;
+  margin-right:20rpx;/*图片与右侧文字的间距*/
+}
+/* 一部电影的介绍 */
+.movie-info{
+  flex: 1;/*将右侧的区域分配给info介绍*/
+  font-size: 28rpx;
+  line-height: 1.8;/*行高*/
+}
+/* 一部电影的标题 */
+.movie-title{
+  color:#666;/*文字颜色*/
+  font-size: 40rpx;/*文字大小*/
+  font-weight:bolder;/*加粗*/
+}
+/* 一部电影的评分 */
+.movie-score{
+  color:#faaf00;
+}
+.movie-comment{
+  height: 60rpx;/*按钮高度*/
+  background-color:#e54847;
+  color: #fff;
+  font-size: 26rpx;
+  margin-top: 120rpx;
+}
+
+
+
+
+
+
+

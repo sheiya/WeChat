@@ -1,0 +1,12 @@
+<!--pages/profile/profile.wxml-->
+<!-- <text>pages/profile/profile.wxml</text> -->
+<view class='profile'>
+  <view class='profile-img'>
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view>
+    <open-data type="userNickName" class="profile-name"></open-data>
+  </view>
+</view>
+<button open-type='getUserInfo' bindgetuserinfo='onGotUserInfo'>获取用户的信息 </button>
+
